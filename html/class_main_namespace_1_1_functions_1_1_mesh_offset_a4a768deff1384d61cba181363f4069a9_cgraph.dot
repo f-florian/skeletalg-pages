@@ -1,0 +1,19 @@
+digraph "MainNamespace::Functions::MeshOffset::l2Neumann"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MainNamespace::Functions\l::MeshOffset::l2Neumann",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Compute the L² projection of the Nemuann trace into piecewise constant functions. The trace is scaled..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MainNamespace::Functions\l::MeshOffset::neumann",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_functions_1_1_mesh_offset.html#a8397c8b0cc4e358dd5ccf2a94d1d52c3",tooltip="Compute an offset for the Neumann trace of the current solution."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MainNamespace::Mesh\l::normal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_main_namespace_1_1_mesh.html#acd5f992511be0c6e6776be2ec59c7ca6",tooltip="Get the normal to a triangle."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MainNamespace::Mesh\l::triangle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_main_namespace_1_1_mesh.html#aecef8c2502305df7229d7bcf2f5df2ad",tooltip="Get a triangle."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MainNamespace::Mesh\l::vertex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_main_namespace_1_1_mesh.html#af0d92acd1c106ecbf5924ce4052667fb",tooltip="Get a vertex."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MainNamespace::Mesh\l::vertices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_main_namespace_1_1_mesh.html#ab0133714e18c8aaee3deb84910cef54c",tooltip="Getter."];
+}

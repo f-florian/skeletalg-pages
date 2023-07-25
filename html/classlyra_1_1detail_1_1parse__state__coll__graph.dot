@@ -1,0 +1,29 @@
+digraph "lyra::detail::parse_state"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="lyra::detail::parse\l_state",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" result_type" ,fontname="Helvetica"];
+  Node2 [label="parser_result_type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" tokens" ,fontname="Helvetica"];
+  Node3 [label="lyra::detail::token\l_iterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" style" ,fontname="Helvetica"];
+  Node4 [label="lyra::option_style",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlyra_1_1option__style.html",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" long_option_prefix\nshort_option_prefix\nvalue_delimiters" ,fontname="Helvetica"];
+  Node5 [label="std::string",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="std::basic_string\<\l Char \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" long_option_size\nshort_option_size" ,fontname="Helvetica"];
+  Node7 [label="size_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" args_e\nargs_i" ,fontname="Helvetica"];
+  Node8 [label="std::vector\< std::string \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node9 -> Node8 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< std::string \>" ,fontname="Helvetica"];
+  Node9 [label="std::vector\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip=" "];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node10 [label="T",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip=" "];
+  Node11 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" args_i_sub" ,fontname="Helvetica"];
+  Node11 [label="size_type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip=" "];
+}

@@ -1,0 +1,21 @@
+digraph "MainNamespace::makeDirections"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MainNamespace::makeDirections",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MainNamespace::copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#ad6c9cb208aad8941d4a3efa626110c5b",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MainNamespace::maybeFree",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#a066656219cf67ef84d18b17a7daae845",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MainNamespace::CFunctions\l::freeCPointer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace_1_1_c_functions.html#a4c174a200de18d1f8aa4f313eef7513a",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MainNamespace::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#a02c8bef81335a9abf6f7c56770f0c7a1",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MainNamespace::Logger::log",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace_1_1_logger.html#afbb4cc2d8b498e71fcb228f0da8309a1",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="MainNamespace::Logger\l::forwardLog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace_1_1_logger.html#af052b0198f333fca77f0837a511ec7f7",tooltip=" "];
+}

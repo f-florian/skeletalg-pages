@@ -1,0 +1,8 @@
+<map id="MainNamespace::Functions::MeshOffset::l2Neumann" name="MainNamespace::Functions::MeshOffset::l2Neumann">
+<area shape="rect" id="node1" title="Compute the L² projection of the Nemuann trace into piecewise constant functions. The trace is scaled..." alt="" coords="5,136,207,177"/>
+<area shape="rect" id="node2" href="$class_main_namespace_1_1_functions_1_1_mesh_offset.html#a8397c8b0cc4e358dd5ccf2a94d1d52c3" title="Compute an offset for the Neumann trace of the current solution." alt="" coords="255,5,456,47"/>
+<area shape="rect" id="node3" href="$struct_main_namespace_1_1_mesh.html#acd5f992511be0c6e6776be2ec59c7ca6" title="Get the normal to a triangle." alt="" coords="268,71,443,112"/>
+<area shape="rect" id="node4" href="$struct_main_namespace_1_1_mesh.html#aecef8c2502305df7229d7bcf2f5df2ad" title="Get a triangle." alt="" coords="268,136,443,177"/>
+<area shape="rect" id="node5" href="$struct_main_namespace_1_1_mesh.html#af0d92acd1c106ecbf5924ce4052667fb" title="Get a vertex." alt="" coords="268,201,443,243"/>
+<area shape="rect" id="node6" href="$struct_main_namespace_1_1_mesh.html#ab0133714e18c8aaee3deb84910cef54c" title="Getter." alt="" coords="268,267,443,308"/>
+</map>

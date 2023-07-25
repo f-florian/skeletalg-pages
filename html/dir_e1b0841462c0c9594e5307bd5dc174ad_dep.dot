@@ -1,0 +1,19 @@
+digraph "Lyra"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_e1b0841462c0c9594e5307bd5dc174ad {
+    graph [ bgcolor="#def7e1", pencolor="grey25", style="filled,bold,", label="", fontname="Helvetica", fontsize="10", URL="dir_e1b0841462c0c9594e5307bd5dc174ad.html"]
+    dir_e1b0841462c0c9594e5307bd5dc174ad [shape=plaintext, label="Lyra"];
+  dir_276b1ac325caf802f1c21d45656d59af [shape=box, label="data", style="filled,", fillcolor="#64db72", color="grey25", URL="dir_276b1ac325caf802f1c21d45656d59af.html"];
+  dir_9da6e56c5ff0132aef4ef296817b6291 [shape=box, label="examples", style="filled,", fillcolor="#64db72", color="grey25", URL="dir_9da6e56c5ff0132aef4ef296817b6291.html"];
+  dir_eabd99c7a0b0d21b0c160e67f662f576 [shape=box, label="include", style="filled,", fillcolor="#64db72", color="grey25", URL="dir_eabd99c7a0b0d21b0c160e67f662f576.html"];
+  dir_e032744040c1565cb9da66006488204e [shape=box, label="tests", style="filled,", fillcolor="#64db72", color="grey25", URL="dir_e032744040c1565cb9da66006488204e.html"];
+  dir_bf986b0c23b122bdbbaff6fad8844659 [shape=box, label="tools", style="filled,", fillcolor="#64db72", color="grey25", URL="dir_bf986b0c23b122bdbbaff6fad8844659.html"];
+  }
+  dir_e032744040c1565cb9da66006488204e->dir_9da6e56c5ff0132aef4ef296817b6291 [headlabel="14", labeldistance=1.5 headhref="dir_000013_000002.html"];
+  dir_e032744040c1565cb9da66006488204e->dir_eabd99c7a0b0d21b0c160e67f662f576 [headlabel="1", labeldistance=1.5 headhref="dir_000013_000003.html"];
+}

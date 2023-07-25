@@ -1,0 +1,11 @@
+<map id="MainNamespace::Logger::indent" name="MainNamespace::Logger::indent">
+<area shape="rect" id="node1" title="Increase indentation level in the logger." alt="" coords="772,171,955,212"/>
+<area shape="rect" id="node2" href="$class_main_namespace_1_1_surface_1_1_multi_surface.html#a3f8d56c9aa2c53fdbb578f534bd523e5" title="Contructor. Parse a mesh file in gmsh format and build the global mesh." alt="" coords="257,18,460,59"/>
+<area shape="rect" id="node3" href="$class_main_namespace_1_1_surface_1_1_single_surface.html#a653f26daef216ab74bac87d618603c7f" title="Build the operators." alt="" coords="508,112,724,154"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a5d68713f22d1b3e2495b15d107ea7d21" title=" " alt="" coords="108,178,209,205"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,204,60,230"/>
+<area shape="rect" id="node7" href="$namespace_main_namespace_1_1_surface.html#a4c0c8122fd15716950c73989302ffdc3" title=" " alt="" coords="522,47,710,88"/>
+<area shape="rect" id="node8" href="$classlyra_1_1ostream__printer.html#a26a9b0ef8710580a80aeff979efa2bc9" title=" " alt="" coords="537,280,695,322"/>
+<area shape="rect" id="node9" href="$classlyra_1_1ostream__printer.html#aef86cc281a01321d12eb78b7706ff42e" title=" " alt="" coords="537,346,695,387"/>
+<area shape="rect" id="node4" href="$class_main_namespace_1_1_surface_1_1_multi_surface.html#a8839f7e49575079e39fbb95a692772a5" title="Compute the right&#45;hand side, the operators, then solve the linear system." alt="" coords="265,112,453,154"/>
+</map>

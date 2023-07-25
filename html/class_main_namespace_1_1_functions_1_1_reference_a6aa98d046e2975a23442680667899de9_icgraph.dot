@@ -1,0 +1,13 @@
+digraph "MainNamespace::Functions::Reference::dirichlet"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="MainNamespace::Functions\l::Reference::dirichlet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Compute the (discrete) (Dirichlet) trace of the function at point."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MainNamespace::Functions\l::ZeroExtension::dirichlet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_functions_1_1_zero_extension.html#acec47993f1f34b26a17d15f3eb425857",tooltip="Compute an offset for the Dirictlet trace of the current solution."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MainNamespace::Functions\l::MeshOffset::dirichlet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_functions_1_1_mesh_offset.html#aca0e376573264cc64632d960885012a1",tooltip="Compute the (discrete) (Dirichlet) trace of the function at point."];
+}

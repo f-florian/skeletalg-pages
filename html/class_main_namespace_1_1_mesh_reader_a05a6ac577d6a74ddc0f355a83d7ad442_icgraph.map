@@ -1,0 +1,5 @@
+<map id="MainNamespace::MeshReader::parseMesh" name="MainNamespace::MeshReader::parseMesh">
+<area shape="rect" id="node1" title="Parse a gmsh mesh file into a surface3d structure. The mesh_ object is filled in the appropriate way." alt="" coords="492,5,712,47"/>
+<area shape="rect" id="node2" href="$namespace_main_namespace_1_1_surface.html#a4c0c8122fd15716950c73989302ffdc3" title=" " alt="" coords="256,5,444,47"/>
+<area shape="rect" id="node3" href="$class_main_namespace_1_1_surface_1_1_multi_surface.html#a3f8d56c9aa2c53fdbb578f534bd523e5" title="Contructor. Parse a mesh file in gmsh format and build the global mesh." alt="" coords="5,5,208,47"/>
+</map>

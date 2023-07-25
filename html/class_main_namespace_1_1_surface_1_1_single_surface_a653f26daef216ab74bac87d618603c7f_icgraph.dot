@@ -1,0 +1,15 @@
+digraph "MainNamespace::Surface::SingleSurface::buildOperator"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="MainNamespace::Surface\l::SingleSurface::buildOperator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Build the operators."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MainNamespace::Surface\l::MultiSurface::solve",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_multi_surface.html#a8839f7e49575079e39fbb95a692772a5",tooltip="Compute the right-hand side, the operators, then solve the linear system."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="testProblem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a5d68713f22d1b3e2495b15d107ea7d21",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627",tooltip=" "];
+}

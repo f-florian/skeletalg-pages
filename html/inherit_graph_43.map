@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_main_namespace_1_1_functions_1_1_reference.html" title="Virtual class that specifies the reference traces for testing." alt="" coords="5,39,207,80"/>
+<area shape="rect" id="node2" href="$class_main_namespace_1_1_functions_1_1_mesh_offset.html" title="Offset that takes its values from a mesh data." alt="" coords="255,5,456,47"/>
+<area shape="rect" id="node4" href="$class_main_namespace_1_1_functions_1_1_plane_wave.html" title="Plane wave reference." alt="" coords="255,71,456,112"/>
+<area shape="rect" id="node3" href="$class_main_namespace_1_1_functions_1_1_zero_extension.html" title="This only works decently for some solutions." alt="" coords="504,5,705,47"/>
+</map>

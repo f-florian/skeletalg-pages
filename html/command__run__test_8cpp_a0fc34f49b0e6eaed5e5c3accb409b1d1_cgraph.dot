@@ -1,0 +1,17 @@
+digraph "main"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="lyra::command::add\l_argument",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1command.html#ac0ece846209516bf3c27f41f3f9b802f",tooltip=" "];
+  Node2 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="lyra::cli::parse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1cli.html#a6d3e91c66ed03273471089eebcdeacae",tooltip=" "];
+  Node3 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="lyra::option_style\l::posix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlyra_1_1option__style.html#ad733f4434bb558b70262f04ae4b69e1d",tooltip=" "];
+}

@@ -1,0 +1,12 @@
+digraph "Lyra/include/lyra/detail"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_a755797409ec99181b199c936490f1ea {
+    graph [ bgcolor="#def7e1", pencolor="grey50", style="filled,dashed,", label="lyra", fontname="Helvetica", fontsize="10", URL="dir_a755797409ec99181b199c936490f1ea.html"]
+  dir_e3b63d6621e6fd69aa74eef63da2d9d3 [shape=box, label="detail", style="filled,bold,", fillcolor="#def7e1", color="grey25", URL="dir_e3b63d6621e6fd69aa74eef63da2d9d3.html"];
+  }
+}

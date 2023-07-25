@@ -1,0 +1,21 @@
+digraph "lyra::command::command"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="lyra::command::command",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="lyra::group::group",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1group.html#ae5b0a47339c2385c57e9272b5495164c",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="lyra::arguments::add\l_argument",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1arguments.html#a2da55e33219324b5cd93bba0b44f13c9",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="lyra::parser::clone",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1parser.html#a973c203c76dd3160378494ae12c70724",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="lyra::group::required",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1group.html#a95cd543f2f09212cefaeba7d12d8e57c",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="lyra::detail::parser\l_cardinality::required",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlyra_1_1detail_1_1parser__cardinality.html#ab03623ff7b07e03b6b54ab20f8aaae2d",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="lyra::arguments::sequential",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1arguments.html#aab200e7b9a5d24afbbef1942fc3c5a38",tooltip=" "];
+}

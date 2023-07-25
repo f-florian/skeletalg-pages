@@ -1,0 +1,39 @@
+digraph "MainNamespace::MeshReader::parseMesh"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MainNamespace::MeshReader\l::parseMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Parse a gmsh mesh file into a surface3d structure. The mesh_ object is filled in the appropriate way."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MainNamespace::buildSurface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#a8fc1ba5863e4a27ba20d60aaecafe847",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MainNamespace::Logger::log",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace_1_1_logger.html#afbb4cc2d8b498e71fcb228f0da8309a1",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MainNamespace::Logger\l::forwardLog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace_1_1_logger.html#af052b0198f333fca77f0837a511ec7f7",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MainNamespace::getElements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#abbbf8199881e62d39394f4814789a8fd",tooltip=" "];
+  Node5 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MainNamespace::parseNodes\lPhysical",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#ad7a4c5eb8035073775288c956070c5f3",tooltip=" "];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="MainNamespace::parsePhysicalName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#a5ff9eb55a67d7471d1293fd26d21e347",tooltip=" "];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="MainNamespace::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#a8104aa37d7d31758ac725060a96f07d9",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="MainNamespace::reorderElements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#a9c92d3b0aaa6902a4344c09e7f37f8c7",tooltip=" "];
+  Node9 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="MainNamespace::splitTriangles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#a09e58672af691ec8ebddbda7094dd11f",tooltip=" "];
+  Node10 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="MainNamespace::Mesh\l::triangles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_main_namespace_1_1_mesh.html#a9e3b353180a3b67dc149e8703c164bc3",tooltip="Getter."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="MainNamespace::Mesh\l::vertices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_main_namespace_1_1_mesh.html#ab0133714e18c8aaee3deb84910cef54c",tooltip="Getter."];
+}

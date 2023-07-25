@@ -1,0 +1,30 @@
+digraph "MainNamespace::Surface::SingleSurface::setupCluster"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MainNamespace::Surface\l::SingleSurface::setupCluster",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Setup cluster trees."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MainNamespace::at",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#a057c5767cb2d6c22def63e2cdc335080",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MainNamespace::getUnderlying",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#af2bdf8b63f748b11f1bb616b59890873",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MainNamespace::Surface\l::buildGeometricCluster",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace_1_1_surface.html#a7248ad7bf241ea07a39fc5264435d46e",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MainNamespace::clusterResolution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#ae3de5f8d4e5a65270c9f1300f9eb0550",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MainNamespace::globalOptions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#a6fd76e14adc7d23a9822334cb389b369",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="MainNamespace::CFunctions\l::freeCPointer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace_1_1_c_functions.html#a4c174a200de18d1f8aa4f313eef7513a",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="MainNamespace::Surface\l::SingleSurface::geometry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_single_surface.html#ab51f55fa95a3e81416dd88ba743efa57",tooltip="Getter."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="MainNamespace::Logger::log",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace_1_1_logger.html#afbb4cc2d8b498e71fcb228f0da8309a1",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="MainNamespace::Logger\l::forwardLog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace_1_1_logger.html#af052b0198f333fca77f0837a511ec7f7",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="MainNamespace::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#a8104aa37d7d31758ac725060a96f07d9",tooltip=" "];
+}

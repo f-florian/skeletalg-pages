@@ -1,0 +1,5 @@
+<map id="MainNamespace::Logger::OutputDevice::checkMessageLevel" name="MainNamespace::Logger::OutputDevice::checkMessageLevel">
+<area shape="rect" id="node1" title="Check whether message should be logged." alt="" coords="236,31,459,87"/>
+<area shape="rect" id="node2" href="$class_main_namespace_1_1_logger_1_1_std_stream_device.html#a7364d2ba11f5fdca32a0cd66e74241f3" title="Print a message to the device." alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node3" href="$class_main_namespace_1_1_logger_1_1_file_pointer_device.html#a23816ed342498318f6243fc51df1addf" title="Print a message to the device." alt="" coords="5,71,188,112"/>
+</map>

@@ -1,0 +1,17 @@
+digraph "lyra::parser::print_help_text_summary"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="lyra::parser::print\l_help_text_summary",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="lyra::parser::get_description_text",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1parser.html#a420cbfdfb4e222155591fd2a5896e5d7",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="lyra::parser::get_usage_text",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1parser.html#a59a2a42cea85955a811279a463777b9d",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="lyra::printer::heading",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1printer.html#a7da793051885bba1d0a6e88149273a08",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="lyra::printer::paragraph",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1printer.html#a9483c878eaa7e07ec69a92987834a62e",tooltip=" "];
+}

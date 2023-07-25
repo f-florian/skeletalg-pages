@@ -1,0 +1,4 @@
+<map id="MainNamespace::Functions::ZeroExtension::neumann" name="MainNamespace::Functions::ZeroExtension::neumann">
+<area shape="rect" id="node1" title="Compute an offset for the Neumann trace of the current solution." alt="" coords="5,5,207,47"/>
+<area shape="rect" id="node2" href="$class_main_namespace_1_1_functions_1_1_reference.html#aa08f9ff51aa4d6252f38774b96b396a2" title="Compute the (discrete) Neumann trace of the function at point." alt="" coords="255,5,456,47"/>
+</map>

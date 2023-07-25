@@ -1,0 +1,12 @@
+<map id="MainNamespace::Surface::MultiSurface::error" name="MainNamespace::Surface::MultiSurface::error">
+<area shape="rect" id="node1" title="Compute the error in several ways." alt="" coords="5,111,193,153"/>
+<area shape="rect" id="node2" href="$namespace_main_namespace_1_1_logger.html#afbb4cc2d8b498e71fcb228f0da8309a1" title=" " alt="" coords="519,123,730,149"/>
+<area shape="rect" id="node4" href="$namespace_main_namespace.html#a78e94b3a3cdc51d20e1c665b3c4dd432" title=" " alt="" coords="251,64,452,91"/>
+<area shape="rect" id="node7" href="$class_main_namespace_1_1_mesh_reader.html#a6b3bbaa0caf0b1e01681dc79a1ac72ea" title="Save the Cauchy data associated to the mesh, with the given name." alt="" coords="241,170,461,211"/>
+<area shape="rect" id="node3" href="$namespace_main_namespace_1_1_logger.html#af052b0198f333fca77f0837a511ec7f7" title=" " alt="" coords="788,115,971,157"/>
+<area shape="rect" id="node5" href="$namespace_main_namespace.html#a6fd76e14adc7d23a9822334cb389b369" title=" " alt="" coords="510,5,739,32"/>
+<area shape="rect" id="node6" href="$struct_main_namespace_1_1_options.html#a7265db95ee1db24aa677c747ec2ec49b" title=" " alt="" coords="530,57,719,98"/>
+<area shape="rect" id="node8" href="$namespace_main_namespace.html#af2bdf8b63f748b11f1bb616b59890873" title=" " alt="" coords="509,173,740,200"/>
+<area shape="rect" id="node9" href="$struct_main_namespace_1_1_mesh.html#a9e3b353180a3b67dc149e8703c164bc3" title="Getter." alt="" coords="537,225,712,266"/>
+<area shape="rect" id="node10" href="$struct_main_namespace_1_1_mesh.html#ab0133714e18c8aaee3deb84910cef54c" title="Getter." alt="" coords="537,290,712,331"/>
+</map>

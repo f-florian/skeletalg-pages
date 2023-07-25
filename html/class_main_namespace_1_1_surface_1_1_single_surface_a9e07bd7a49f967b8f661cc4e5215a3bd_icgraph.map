@@ -1,0 +1,9 @@
+<map id="MainNamespace::Surface::SingleSurface::waveNumber" name="MainNamespace::Surface::SingleSurface::waveNumber">
+<area shape="rect" id="node1" title="Getter." alt="" coords="761,71,976,112"/>
+<area shape="rect" id="node2" href="$class_main_namespace_1_1_surface_1_1_single_surface.html#a653f26daef216ab74bac87d618603c7f" title="Build the operators." alt="" coords="495,5,711,47"/>
+<area shape="rect" id="node6" href="$class_main_namespace_1_1_surface_1_1_single_surface.html#a3321422c36eccd213cfc48823a9f54d7" title="Project the offset on the current mesh, then use it to compute the right&#45;hand side." alt="" coords="493,71,713,112"/>
+<area shape="rect" id="node7" href="$class_main_namespace_1_1_surface_1_1_single_surface.html#aca48bbfed50db9af9d61e7998eed4b1d" title="Setter for waveNumber_ and stabilizer_." alt="" coords="496,136,711,177"/>
+<area shape="rect" id="node3" href="$class_main_namespace_1_1_surface_1_1_multi_surface.html#a8839f7e49575079e39fbb95a692772a5" title="Compute the right&#45;hand side, the operators, then solve the linear system." alt="" coords="257,39,445,80"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#a5d68713f22d1b3e2495b15d107ea7d21" title=" " alt="" coords="108,46,209,73"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,46,60,73"/>
+</map>

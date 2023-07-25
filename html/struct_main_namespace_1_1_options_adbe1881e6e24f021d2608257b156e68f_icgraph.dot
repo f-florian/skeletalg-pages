@@ -1,0 +1,30 @@
+digraph "MainNamespace::Options::interpolationPoints"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="MainNamespace::Options\l::interpolationPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MainNamespace::Options\l::fillDefaults",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_main_namespace_1_1_options.html#a498b9918f2fdb3776667e57dc368a5d3",tooltip="Called by the constructor by default."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MainNamespace::Options\l::Options",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_main_namespace_1_1_options.html#a4db6a2fafb09fb140ca8dd77786dce3c",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MainNamespace::interpolation\lPoints",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#a532a4d5934d8db064f36b2c1de35adc6",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MainNamespace::Surface\l::MultiSurface::MultiSurface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_multi_surface.html#a3f8d56c9aa2c53fdbb578f534bd523e5",tooltip="Contructor. Parse a mesh file in gmsh format and build the global mesh."];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MainNamespace::Surface\l::SingleSurface::buildOperator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_single_surface.html#a653f26daef216ab74bac87d618603c7f",tooltip="Build the operators."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="MainNamespace::Surface\l::MultiSurface::solve",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_multi_surface.html#a8839f7e49575079e39fbb95a692772a5",tooltip="Compute the right-hand side, the operators, then solve the linear system."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="testProblem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a5d68713f22d1b3e2495b15d107ea7d21",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627",tooltip=" "];
+  Node4 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="MainNamespace::Surface\l::SingleSurface::makeMultiRhs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_single_surface.html#a3321422c36eccd213cfc48823a9f54d7",tooltip="Project the offset on the current mesh, then use it to compute the right-hand side."];
+  Node10 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="MainNamespace::Options\l::interpolationPoints",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_main_namespace_1_1_options.html#aa39cebc776022a90a749440f2fc9530b",tooltip=" "];
+}

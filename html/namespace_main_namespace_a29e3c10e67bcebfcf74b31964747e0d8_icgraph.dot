@@ -1,0 +1,36 @@
+digraph "MainNamespace::startTiming"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="MainNamespace::startTiming",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MainNamespace::compressRow\lColumnFar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#ab0c0b0cb1d9d667bc93cb8e377796c8a",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MainNamespace::buildOperator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#aaa553a0feb6a9e785dce2ea7c2f25481",tooltip="Build a dh2matrix for the operator described by bemDescription, using the given clusters."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MainNamespace::DH2Matrix\lWrapper::build",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_d_h2_matrix_wrapper.html#a8b3117680075ec79bc0500f3e901b133",tooltip="Take ownership of, the pointer to the bem description and build the matrix and all needed data struct..."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MainNamespace::Surface\l::makeTmpApply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace_1_1_surface.html#a7e821744eeb79cb1faa8468d53cb7c1e",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MainNamespace::Surface\l::SingleSurface::makeMultiRhs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_single_surface.html#a3321422c36eccd213cfc48823a9f54d7",tooltip="Project the offset on the current mesh, then use it to compute the right-hand side."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="MainNamespace::Surface\l::MultiSurface::solve",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_multi_surface.html#a8839f7e49575079e39fbb95a692772a5",tooltip="Compute the right-hand side, the operators, then solve the linear system."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="testProblem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a5d68713f22d1b3e2495b15d107ea7d21",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="MainNamespace::Surface\l::doGmres",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace_1_1_surface.html#a9db507bc2f601fff92d0383899185f61",tooltip=" "];
+  Node10 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="MainNamespace::timeExecution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#af2de50bf4da80fb75ac77bb7bdce2f40",tooltip=" "];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="MainNamespace::buildImplicit\lClusterBasis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#a8d8fdac50b5e686e19890836bb305791",tooltip=" "];
+  Node12 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="MainNamespace::timeExecution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#a7fbb3fdb876e764946fb04b8330feac7",tooltip=" "];
+}

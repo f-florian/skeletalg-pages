@@ -1,0 +1,37 @@
+digraph "lyra::group::parse"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="lyra::group::parse",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="lyra::detail::token\l_iterator::argument",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#ac3007dcca2221df17bcfba6815a60aff",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="lyra::parser::get_usage_text",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1parser.html#a59a2a42cea85955a811279a463777b9d",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="lyra::arguments::parse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1arguments.html#abaa776f2a0b2c57de970cf35bd59c47c",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="lyra::detail::basic\l_result\< detail::parse\l_state \>::error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1basic__result.html#ae878693d416cc48943171ab4187f5719",tooltip=" "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="lyra::arguments::parse_any",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1arguments.html#a4509f3d7139b3cd823dcad3c75ae221b",tooltip=" "];
+  Node6 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="MainNamespace::count",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#ac3a415fa8d1b6b56dfe215f13c7f67b1",tooltip=" "];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="lyra::detail::basic\l_result\< detail::parse\l_state \>::ok",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1basic__result.html#aee577409a431e215136ffc0764e5432b",tooltip=" "];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="lyra::arguments::parse\l_sequence",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1arguments.html#a125da5640a06de6f9268328a252e20d2",tooltip=" "];
+  Node9 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="lyra::detail::parse\l_state::type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1parse__state.html#a2b74a8fb6fea126c7d5a86e0f14cb6d1",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="lyra::detail::result\l_value_base::value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1result__value__base.html#a94509148b298c6452d7e2109e3d2e7cf",tooltip=" "];
+}

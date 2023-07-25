@@ -1,0 +1,32 @@
+digraph "lyra::option_style::posix"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="lyra::option_style\l::posix",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="lyra::arguments::get\l_option_style",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1arguments.html#a9df61d2688325b486b441815bbc19f55",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="lyra::arguments::print_help",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1arguments.html#a620f67bdd9518d9f7a0a5b0e3939c561",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="lyra::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacelyra.html#ac376af987ad2c95c9a7e27cc61e0cb8c",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="lyra::cli::parse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1cli.html#a6d3e91c66ed03273471089eebcdeacae",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MainNamespace::Options\l::Options",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_main_namespace_1_1_options.html#a4db6a2fafb09fb140ca8dd77786dce3c",tooltip=" "];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$doc__commands_8cpp.html#a217dbf8b442f20279ea00b898af96f52",tooltip=" "];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="lyra::main::operator()",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1main.html#a84834f37ab0c88f4f48036b8b20edab9",tooltip=" "];
+  Node5 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="test_style",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$option__styles__run__test_8cpp.html#ab4d2ccb95df97b3b8f84b1cffb6d4c79",tooltip=" "];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$option__styles__run__test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
+  Node5 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="test_val",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$values__run__test_8cpp.html#a62c5a6cdfec8c364869ca33c65c3d4e6",tooltip=" "];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$values__run__test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
+}

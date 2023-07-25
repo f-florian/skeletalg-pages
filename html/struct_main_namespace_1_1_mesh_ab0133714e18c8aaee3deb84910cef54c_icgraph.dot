@@ -1,0 +1,51 @@
+digraph "MainNamespace::Mesh::vertices"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="MainNamespace::Mesh\l::vertices",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Getter."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MainNamespace::Surface\l::SingleSurface::SingleSurface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_single_surface.html#a2cb253a6c5cc5d0c66ead47e5db3233b",tooltip="Construct an object to manage data associated to a closed boundary."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MainNamespace::Surface\l::getFromFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace_1_1_surface.html#a4c0c8122fd15716950c73989302ffdc3",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MainNamespace::Surface\l::MultiSurface::MultiSurface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_multi_surface.html#a3f8d56c9aa2c53fdbb578f534bd523e5",tooltip="Contructor. Parse a mesh file in gmsh format and build the global mesh."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MainNamespace::Functions\l::MeshOffset::l2Neumann",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_functions_1_1_mesh_offset.html#a4a768deff1384d61cba181363f4069a9",tooltip="Compute the L² projection of the Nemuann trace into piecewise constant functions. The trace is scaled..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MainNamespace::Surface\l::SingleSurface::makeOffset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_single_surface.html#a48d60279cef854fc417ed395bc25ca15",tooltip="Project the offset on the current mesh."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="MainNamespace::Surface\l::MultiSurface::solve",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_multi_surface.html#a8839f7e49575079e39fbb95a692772a5",tooltip="Compute the right-hand side, the operators, then solve the linear system."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="testProblem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a5d68713f22d1b3e2495b15d107ea7d21",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="MainNamespace::MeshReader\l::parseMesh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_mesh_reader.html#a05a6ac577d6a74ddc0f355a83d7ad442",tooltip="Parse a gmsh mesh file into a surface3d structure. The mesh_ object is filled in the appropriate way."];
+  Node10 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="MainNamespace::MeshReader\l::saveView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_mesh_reader.html#a6b3bbaa0caf0b1e01681dc79a1ac72ea",tooltip="Save the Cauchy data associated to the mesh, with the given name."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="MainNamespace::Surface\l::SingleSurface::computeDifferenceNorm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_single_surface.html#acd075e5e7ea6304b2e99e6e8aeed29db",tooltip="Compute the energy error norm."];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="MainNamespace::Surface\l::MultiSurface::error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_multi_surface.html#a5e65e47cb2b222bd9a5e7cc40e1c23e1",tooltip="Compute the error in several ways."];
+  Node13 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="MainNamespace::Surface\l::SingleSurface::vertices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_single_surface.html#a14d982b157c95bc7e304f60915960786",tooltip="Getter."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="MainNamespace::Surface\l::SingleSurface::dirichletBasisSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_single_surface.html#a895b50a0b257398b19897c97f235b777",tooltip="Getter."];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="MainNamespace::Surface\l::SingleSurface::fullBasisSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_single_surface.html#af82898396f01292566ccfa0389b11d72",tooltip="Getter."];
+  Node16 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="MainNamespace::Surface\l::SingleSurface::singleSpaceSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_single_surface.html#aa1a8598228000ef782f8de12b454b29e",tooltip="Getter."];
+  Node14 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="MainNamespace::Surface\l::SingleSurface::makeMultiRhs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_single_surface.html#a3321422c36eccd213cfc48823a9f54d7",tooltip="Project the offset on the current mesh, then use it to compute the right-hand side."];
+  Node18 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="MainNamespace::Mesh\l::writeMesh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_main_namespace_1_1_mesh.html#a8f4a591243a4cc09ea849eaf72fcf7fc",tooltip="Write a mesh in a custom format, at a custom location. Format: one line with number of vertices,..."];
+}

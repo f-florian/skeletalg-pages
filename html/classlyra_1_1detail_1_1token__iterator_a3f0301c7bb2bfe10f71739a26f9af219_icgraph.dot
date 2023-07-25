@@ -1,0 +1,38 @@
+digraph "lyra::detail::token_iterator::is_prefixed"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="lyra::detail::token\l_iterator::is_prefixed",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="lyra::detail::token\l_iterator::has_long\l_option_prefix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#a8006318eb718713b45bd0c7064d3e87f",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="lyra::detail::token\l_iterator::has_option\l_prefix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#a11350435cee36ca42019fc81662c018f",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="lyra::detail::token\l_iterator::value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#aefbced0b2cbf66ad7967b6a2891166d0",tooltip=" "];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="lyra::detail::token\l_iterator::option",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#a7e4904a6b3beafa1280358cdd6002353",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="lyra::opt::parse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1opt.html#a320fdddd60a89469dca1ba3c07e7bf20",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$single__parser__run__test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="lyra::detail::token\l_iterator::has_short\l_option_prefix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#a368b12d3ecc2c462c24e1d8723ce5f4f",tooltip=" "];
+  Node8 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="lyra::detail::token\l_iterator::pop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#a017af8979ef14eac5c1fd010b1391035",tooltip=" "];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="lyra::literal::parse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1literal.html#a0b616706829da82299d42c4a188d6408",tooltip=" "];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="lyra::arg::parse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1arg.html#a027ca631a2fe3824db141195371b0349",tooltip=" "];
+  Node8 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="lyra::opt::normalise_opt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1opt.html#a7fca6b73465a8e266ced413fbed375aa",tooltip=" "];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="lyra::opt::is_match",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1opt.html#ae2b0df0a8a61ea576348d56479530ffb",tooltip=" "];
+  Node13 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,62 @@
+digraph "MainNamespace::size"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="MainNamespace::size",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="lyra::detail::token\l_iterator::is_prefix_char",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#ac3094a0243c70f8cd61ae7b0fb48eaa4",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="lyra::detail::token\l_iterator::is_opt_prefix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#afb83df54cc0e261f9cb1a23e0c3b5f5b",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="lyra::detail::token\l_iterator::is_prefixed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#a3f0301c7bb2bfe10f71739a26f9af219",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="lyra::detail::token\l_iterator::has_long\l_option_prefix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#a8006318eb718713b45bd0c7064d3e87f",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="lyra::detail::token\l_iterator::has_option\l_prefix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#a11350435cee36ca42019fc81662c018f",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="lyra::detail::token\l_iterator::value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#aefbced0b2cbf66ad7967b6a2891166d0",tooltip=" "];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="lyra::detail::token\l_iterator::option",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#a7e4904a6b3beafa1280358cdd6002353",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="lyra::opt::parse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1opt.html#a320fdddd60a89469dca1ba3c07e7bf20",tooltip=" "];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$single__parser__run__test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="lyra::detail::token\l_iterator::has_short\l_option_prefix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#a368b12d3ecc2c462c24e1d8723ce5f4f",tooltip=" "];
+  Node11 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="lyra::detail::token\l_iterator::pop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#a017af8979ef14eac5c1fd010b1391035",tooltip=" "];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="lyra::literal::parse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1literal.html#a0b616706829da82299d42c4a188d6408",tooltip=" "];
+  Node12 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="lyra::arg::parse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1arg.html#a027ca631a2fe3824db141195371b0349",tooltip=" "];
+  Node11 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="lyra::opt::normalise_opt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1opt.html#a7fca6b73465a8e266ced413fbed375aa",tooltip=" "];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="lyra::opt::is_match",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1opt.html#ae2b0df0a8a61ea576348d56479530ffb",tooltip=" "];
+  Node16 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="MainNamespace::MeshReader\l::parseMesh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_mesh_reader.html#a05a6ac577d6a74ddc0f355a83d7ad442",tooltip="Parse a gmsh mesh file into a surface3d structure. The mesh_ object is filled in the appropriate way."];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="MainNamespace::Surface\l::getFromFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace_1_1_surface.html#a4c0c8122fd15716950c73989302ffdc3",tooltip=" "];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="MainNamespace::Surface\l::MultiSurface::MultiSurface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_multi_surface.html#a3f8d56c9aa2c53fdbb578f534bd523e5",tooltip="Contructor. Parse a mesh file in gmsh format and build the global mesh."];
+  Node1 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="MainNamespace::parsePhysicalName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#a5ff9eb55a67d7471d1293fd26d21e347",tooltip=" "];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="MainNamespace::parseNodes\lPhysical",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#ad7a4c5eb8035073775288c956070c5f3",tooltip=" "];
+  Node21 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="lyra::detail::token\l_iterator::prefix_value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1detail_1_1token__iterator.html#a4b9804103166e371b0adadc84ff9368d",tooltip=" "];
+  Node22 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="MainNamespace::Surface\l::SingleSurface::setupCluster",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_single_surface.html#ae5d17671333d624db60d56cf43ffc6c5",tooltip="Setup cluster trees."];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="MainNamespace::Surface\l::SingleSurface::SingleSurface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_main_namespace_1_1_surface_1_1_single_surface.html#a2cb253a6c5cc5d0c66ead47e5db3233b",tooltip="Construct an object to manage data associated to a closed boundary."];
+}

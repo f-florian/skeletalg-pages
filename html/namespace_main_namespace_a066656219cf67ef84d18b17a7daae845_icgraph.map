@@ -1,0 +1,24 @@
+<map id="MainNamespace::maybeFree" name="MainNamespace::maybeFree">
+<area shape="rect" id="node1" title=" " alt="" coords="2099,242,2311,269"/>
+<area shape="rect" id="node2" href="$class_main_namespace_1_1_boerm_timer.html#aff0d16069d4aef7a94949fd613bc3f92" title=" " alt="" coords="1829,5,2048,47"/>
+<area shape="rect" id="node3" href="$class_main_namespace_1_1_dumb_pointer.html#a17cb0fe28ed20fcd69eabd5f6812d235" title=" " alt="" coords="1827,71,2051,112"/>
+<area shape="rect" id="node4" href="$class_main_namespace_1_1_surface_1_1_multi_surface.html#a7d510c455d42a31546e94a1711c4e7d4" title="Destructor." alt="" coords="1832,136,2045,177"/>
+<area shape="rect" id="node5" href="$struct_main_namespace_1_1_options.html#a1ef6bad7a167ef792ae408aeb047c8cb" title=" " alt="" coords="1844,201,2033,243"/>
+<area shape="rect" id="node6" href="$class_main_namespace_1_1_pointer_array.html#a175a61f734d79674a95934692d4891b8" title=" " alt="" coords="1829,267,2049,308"/>
+<area shape="rect" id="node8" href="$namespace_main_namespace.html#ad6c9cb208aad8941d4a3efa626110c5b" title=" " alt="" coords="1853,333,2024,359"/>
+<area shape="rect" id="node20" href="$cutils_8cpp.html#a96d88138364e45ce5235b414624023b0" title=" " alt="" coords="1877,383,2001,410"/>
+<area shape="rect" id="node22" href="$class_main_namespace_1_1_dumb_pointer.html#a88f5f60fc72578eb6a8a64c011c58162" title=" " alt="" coords="1827,435,2051,476"/>
+<area shape="rect" id="node7" href="$class_main_namespace_1_1_pointer_array.html#ac02d3aa39cd1a64c4f7ab7a46244db53" title=" " alt="" coords="1548,201,1768,243"/>
+<area shape="rect" id="node9" href="$namespace_main_namespace_1_1_surface.html#ae2df9c52faa0d299f2d4241ff436ca77" title=" " alt="" coords="1564,267,1752,308"/>
+<area shape="rect" id="node10" href="$namespace_main_namespace_1_1_surface.html#a91ad285a7a25853007779d157350ae2d" title="Reorient all needed triangles by swapping two vertices." alt="" coords="1281,289,1469,331"/>
+<area shape="rect" id="node12" href="$namespace_main_namespace.html#a595f92c9feef4f77b05ba85969525fe1" title=" " alt="" coords="1537,383,1779,410"/>
+<area shape="rect" id="node11" href="$class_main_namespace_1_1_surface_1_1_single_surface.html#a2cb253a6c5cc5d0c66ead47e5db3233b" title="Construct an object to manage data associated to a closed boundary." alt="" coords="997,289,1213,331"/>
+<area shape="rect" id="node13" href="$namespace_main_namespace.html#aaa553a0feb6a9e785dce2ea7c2f25481" title="Build a dh2matrix for the operator described by bemDescription, using the given clusters." alt="" coords="1261,383,1489,410"/>
+<area shape="rect" id="node14" href="$class_main_namespace_1_1_d_h2_matrix_wrapper.html#a8b3117680075ec79bc0500f3e901b133" title="Take ownership of, the pointer to the bem description and build the matrix and all needed data struct..." alt="" coords="1001,376,1210,417"/>
+<area shape="rect" id="node15" href="$namespace_main_namespace_1_1_surface.html#a7e821744eeb79cb1faa8468d53cb7c1e" title=" " alt="" coords="761,376,949,417"/>
+<area shape="rect" id="node16" href="$class_main_namespace_1_1_surface_1_1_single_surface.html#a3321422c36eccd213cfc48823a9f54d7" title="Project the offset on the current mesh, then use it to compute the right&#45;hand side." alt="" coords="493,376,713,417"/>
+<area shape="rect" id="node17" href="$class_main_namespace_1_1_surface_1_1_multi_surface.html#a8839f7e49575079e39fbb95a692772a5" title="Compute the right&#45;hand side, the operators, then solve the linear system." alt="" coords="257,376,445,417"/>
+<area shape="rect" id="node18" href="$main_8cpp.html#a5d68713f22d1b3e2495b15d107ea7d21" title=" " alt="" coords="108,383,209,410"/>
+<area shape="rect" id="node19" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,383,60,410"/>
+<area shape="rect" id="node21" href="$namespace_main_namespace_1_1_c_functions.html#a0c64d68d65a71b58e87f5b178ca5780a" title=" " alt="" coords="1553,435,1763,476"/>
+</map>

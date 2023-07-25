@@ -1,0 +1,7 @@
+<map id="MainNamespace::Surface::SingleSurface::check" name="MainNamespace::Surface::SingleSurface::check">
+<area shape="rect" id="node1" title="Check that the surface is a boundary." alt="" coords="5,64,193,105"/>
+<area shape="rect" id="node2" href="$class_main_namespace_1_1_surface_1_1_single_surface.html#ab51f55fa95a3e81416dd88ba743efa57" title="Getter." alt="" coords="251,5,442,47"/>
+<area shape="rect" id="node3" href="$namespace_main_namespace_1_1_logger.html#afbb4cc2d8b498e71fcb228f0da8309a1" title=" " alt="" coords="241,71,452,98"/>
+<area shape="rect" id="node5" href="$namespace_main_namespace.html#a963bb0fc1186abae512b8fde5e8a078c" title="Distribution warning (about h2lib and gmsh)." alt="" coords="251,122,442,149"/>
+<area shape="rect" id="node4" href="$namespace_main_namespace_1_1_logger.html#af052b0198f333fca77f0837a511ec7f7" title=" " alt="" coords="500,64,683,105"/>
+</map>

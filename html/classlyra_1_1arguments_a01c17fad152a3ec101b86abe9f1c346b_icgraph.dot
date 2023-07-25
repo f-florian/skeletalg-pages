@@ -1,0 +1,11 @@
+digraph "lyra::arguments::clone"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="lyra::arguments::clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="lyra::arguments::add\l_argument",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1arguments.html#aed6a4d90d792a3ddb5d39689755c78c9",tooltip=" "];
+}

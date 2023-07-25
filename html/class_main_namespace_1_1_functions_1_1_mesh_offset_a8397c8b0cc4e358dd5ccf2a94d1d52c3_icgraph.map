@@ -1,0 +1,8 @@
+<map id="MainNamespace::Functions::MeshOffset::neumann" name="MainNamespace::Functions::MeshOffset::neumann">
+<area shape="rect" id="node1" title="Compute an offset for the Neumann trace of the current solution." alt="" coords="993,5,1195,47"/>
+<area shape="rect" id="node2" href="$class_main_namespace_1_1_functions_1_1_mesh_offset.html#a4a768deff1384d61cba181363f4069a9" title="Compute the L² projection of the Nemuann trace into piecewise constant functions. The trace is scaled..." alt="" coords="744,5,945,47"/>
+<area shape="rect" id="node3" href="$class_main_namespace_1_1_surface_1_1_single_surface.html#a48d60279cef854fc417ed395bc25ca15" title="Project the offset on the current mesh." alt="" coords="493,5,696,47"/>
+<area shape="rect" id="node4" href="$class_main_namespace_1_1_surface_1_1_multi_surface.html#a8839f7e49575079e39fbb95a692772a5" title="Compute the right&#45;hand side, the operators, then solve the linear system." alt="" coords="257,5,445,47"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a5d68713f22d1b3e2495b15d107ea7d21" title=" " alt="" coords="108,13,209,39"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
+</map>

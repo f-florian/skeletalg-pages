@@ -1,0 +1,7 @@
+\_form#0=10x10:$A$
+\_form#1=73x13:\[
+y \leftarrow y + \alpha A x
+\]
+\_form#2=8x6:$\alpha$
+\_form#3=8x6:$x$
+\_form#4=8x9:$y$

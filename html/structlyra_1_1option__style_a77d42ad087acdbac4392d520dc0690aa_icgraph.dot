@@ -1,0 +1,15 @@
+digraph "lyra::option_style::short_option_string"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="lyra::option_style\l::short_option_string",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="lyra::opt::format_opt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1opt.html#ab967f4e477c4eef325f7a2a37ba0d3f8",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="lyra::opt::get_help_text",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1opt.html#a28b4742a69ac9435ae9fa0816040f572",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="lyra::opt::get_usage_text",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlyra_1_1opt.html#af9d59d525fe83271edc918cb2ce359db",tooltip=" "];
+}

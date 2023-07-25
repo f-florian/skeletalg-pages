@@ -1,0 +1,5 @@
+<map id="MainNamespace::Functions::Reference::dirichlet" name="MainNamespace::Functions::Reference::dirichlet">
+<area shape="rect" id="node1" title="Compute the (discrete) (Dirichlet) trace of the function at point." alt="" coords="255,39,456,80"/>
+<area shape="rect" id="node2" href="$class_main_namespace_1_1_functions_1_1_zero_extension.html#acec47993f1f34b26a17d15f3eb425857" title="Compute an offset for the Dirictlet trace of the current solution." alt="" coords="5,5,207,47"/>
+<area shape="rect" id="node3" href="$class_main_namespace_1_1_functions_1_1_mesh_offset.html#aca0e376573264cc64632d960885012a1" title="Compute the (discrete) (Dirichlet) trace of the function at point." alt="" coords="5,71,207,112"/>
+</map>

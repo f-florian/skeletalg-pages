@@ -1,0 +1,4 @@
+<map id="MainNamespace::Logger::FilePointerDevice::print" name="MainNamespace::Logger::FilePointerDevice::print">
+<area shape="rect" id="node1" title="Print a message to the device." alt="" coords="5,13,188,54"/>
+<area shape="rect" id="node2" href="$class_main_namespace_1_1_logger_1_1_output_device.html#ab6cea8d59ed67765ca3f9f1f90497460" title="Check whether message should be logged." alt="" coords="236,5,459,61"/>
+</map>

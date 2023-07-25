@@ -1,0 +1,5 @@
+<map id="MainNamespace::Logger::OutputDevice" name="MainNamespace::Logger::OutputDevice">
+<area shape="rect" id="node1" title=" " alt="" coords="108,5,291,47"/>
+<area shape="rect" id="node2" href="$class_main_namespace_1_1_logger_1_1_file_pointer_device.html" title="Logger for a file stored on the filesystem. Log to a given file. Lack of color support is assumed...." alt="" coords="5,95,188,136"/>
+<area shape="rect" id="node3" href="$class_main_namespace_1_1_logger_1_1_std_stream_device.html" title="Logger for a standard stream. Log to a given FILE pointer, writing log messages immediately...." alt="" coords="212,95,395,136"/>
+</map>

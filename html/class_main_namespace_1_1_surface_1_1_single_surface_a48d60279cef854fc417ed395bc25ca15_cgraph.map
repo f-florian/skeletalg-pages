@@ -1,0 +1,23 @@
+<map id="MainNamespace::Surface::SingleSurface::makeOffset" name="MainNamespace::Surface::SingleSurface::makeOffset">
+<area shape="rect" id="node1" title="Project the offset on the current mesh." alt="" coords="5,323,208,365"/>
+<area shape="rect" id="node2" href="$namespace_main_namespace.html#a057c5767cb2d6c22def63e2cdc335080" title=" " alt="" coords="290,31,442,57"/>
+<area shape="rect" id="node4" href="$class_main_namespace_1_1_functions_1_1_mesh_offset.html#a168086ca4f603029af2faf0e30282149" title="Interpolate the Dirichlet trace with continuous, picewise linear functions. The trace is scaled by s^..." alt="" coords="265,355,467,397"/>
+<area shape="rect" id="node7" href="$class_main_namespace_1_1_surface_1_1_single_surface.html#af82898396f01292566ccfa0389b11d72" title="Getter." alt="" coords="261,290,471,331"/>
+<area shape="rect" id="node14" href="$class_main_namespace_1_1_functions_1_1_mesh_offset.html#a4a768deff1384d61cba181363f4069a9" title="Compute the L² projection of the Nemuann trace into piecewise constant functions. The trace is scaled..." alt="" coords="265,479,467,521"/>
+<area shape="rect" id="node18" href="$class_main_namespace_1_1_mesh_reader.html#a6b3bbaa0caf0b1e01681dc79a1ac72ea" title="Save the Cauchy data associated to the mesh, with the given name." alt="" coords="256,107,476,149"/>
+<area shape="rect" id="node21" href="$class_main_namespace_1_1_surface_1_1_single_surface.html#a7d8e039812cd3719b07f14d641af0c2d" title="Getter." alt="" coords="272,545,460,586"/>
+<area shape="rect" id="node3" href="$namespace_main_namespace.html#af2bdf8b63f748b11f1bb616b59890873" title=" " alt="" coords="534,5,765,32"/>
+<area shape="rect" id="node5" href="$class_main_namespace_1_1_functions_1_1_mesh_offset.html#a16cc2b00078c4a2182c4030699f0a2a8" title="Compute an offset for the Dirictlet trace of the current solution." alt="" coords="549,355,750,397"/>
+<area shape="rect" id="node6" href="$struct_main_namespace_1_1_mesh.html#af0d92acd1c106ecbf5924ce4052667fb" title="Get a vertex." alt="" coords="562,421,737,462"/>
+<area shape="rect" id="node8" href="$class_main_namespace_1_1_surface_1_1_single_surface.html#a895b50a0b257398b19897c97f235b777" title="Getter." alt="" coords="528,290,771,331"/>
+<area shape="rect" id="node11" href="$class_main_namespace_1_1_surface_1_1_single_surface.html#ac615b87bec340cd97530bfc17e317e5c" title="Getter." alt="" coords="524,225,775,266"/>
+<area shape="rect" id="node9" href="$class_main_namespace_1_1_surface_1_1_single_surface.html#a14d982b157c95bc7e304f60915960786" title="Getter." alt="" coords="823,290,1011,331"/>
+<area shape="rect" id="node10" href="$struct_main_namespace_1_1_mesh.html#ab0133714e18c8aaee3deb84910cef54c" title="Getter." alt="" coords="1059,290,1233,331"/>
+<area shape="rect" id="node12" href="$class_main_namespace_1_1_surface_1_1_single_surface.html#a300e558fb3fa32029de0452e252eb5cc" title="Getter." alt="" coords="823,225,1011,266"/>
+<area shape="rect" id="node13" href="$struct_main_namespace_1_1_mesh.html#a9e3b353180a3b67dc149e8703c164bc3" title="Getter." alt="" coords="1059,137,1233,178"/>
+<area shape="rect" id="node15" href="$class_main_namespace_1_1_functions_1_1_mesh_offset.html#a8397c8b0cc4e358dd5ccf2a94d1d52c3" title="Compute an offset for the Neumann trace of the current solution." alt="" coords="549,669,750,710"/>
+<area shape="rect" id="node16" href="$struct_main_namespace_1_1_mesh.html#acd5f992511be0c6e6776be2ec59c7ca6" title="Get the normal to a triangle." alt="" coords="562,538,737,579"/>
+<area shape="rect" id="node17" href="$struct_main_namespace_1_1_mesh.html#aecef8c2502305df7229d7bcf2f5df2ad" title="Get a triangle." alt="" coords="562,603,737,645"/>
+<area shape="rect" id="node19" href="$namespace_main_namespace_1_1_logger.html#afbb4cc2d8b498e71fcb228f0da8309a1" title=" " alt="" coords="544,115,755,141"/>
+<area shape="rect" id="node20" href="$namespace_main_namespace_1_1_logger.html#af052b0198f333fca77f0837a511ec7f7" title=" " alt="" coords="825,107,1008,149"/>
+</map>

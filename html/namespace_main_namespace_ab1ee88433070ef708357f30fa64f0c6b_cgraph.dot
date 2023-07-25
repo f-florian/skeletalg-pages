@@ -1,0 +1,13 @@
+digraph "MainNamespace::copyrightNotice"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MainNamespace::copyright\lNotice",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Library copyright notice."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MainNamespace::info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_main_namespace.html#adf78e2df8053674479f9eb2824b66f71",tooltip="Library short info."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="lyra::detail::to_string",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacelyra_1_1detail.html#ae65bbfceff11344e7ae2b7f28bebcdb7",tooltip=" "];
+}
